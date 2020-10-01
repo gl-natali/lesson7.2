@@ -1,0 +1,349 @@
+/* Подключение шрифтов */
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200917-114617/Gilroy-Bold.woff") format("woff2"),
+      url("../font/transfonter.org-20200917-114617/Gilroy-Bold.woff") format("woff2"), format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200917-114617/Gilroy-Regular.woff2") format("woff2"),
+      url("../font/transfonter.org-20200917-114617/Gilroy-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Black.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Black.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Medium.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Light.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Light.woff") format("woff");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-UltraLight.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-UltraLight.woff") format("woff");
+   font-weight: 200;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Thin.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Thin.woff") format("woff");
+   font-weight: 100;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-HeavyItalic.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-HeavyItalic.woff") format("woff");
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Regular.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Heavy.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Heavy.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Regular.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-UltraLightItalic.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-UltraLightItalic.woff") format("woff");
+   font-weight: 200;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-ExtraBold.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-ExtraBold.woff") format("woff");
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-Bold.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200930-192501/Gilroy-ThinItalic.woff2") format("woff2"),
+      url("../font/transfonter.org-20200930-192501/Gilroy-ThinItalic.woff") format("woff");
+   font-weight: 100;
+   font-style: italic;
+   font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+body {
+   min-height: 100%;
+   font-size: 14px;
+   line-height: 1;
+}
+
+/*---------*/
+
+.wrapper {
+   min-height: 720px;
+   max-width: 1920px;
+   margin: 0 auto;
+   overflow: hidden;
+   font-family: Gilroy;
+   color: #333333;
+   background: url("../img/Group\ 3.png") no-repeat, url("../img/bg.png") no-repeat, #fafafb;
+}
+
+.header {
+   max-width: 1140px;
+   margin: 30px auto 0px auto;
+}
+nav {
+   max-width: 1140px;
+   margin: 0px auto 20px auto;
+}
+#logo h1 {
+   display: inline-block;
+   font-weight: bold;
+   font-size: 52px;
+   color: #e1e1e1;
+   margin: 0px 18px 0px 0px;
+}
+
+.logotext {
+   display: inline-block;
+   max-width: 200px;
+   min-height: 40px;
+   border-left: 2px solid #89afef;
+   padding: 0px 0px 0px 25px;
+}
+
+.icon {
+   display: inline-block;
+   margin: 0px 15px 0px 80px;
+}
+.iconwhatsapp {
+   background: rgb(45, 208, 56) url("../img/icon/whatsapp-logo.png") 12px 10px no-repeat;
+   box-shadow: 0px 8px 25px rgba(45, 208, 56, 0.497678);
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin: 0px 18px 0px 0px;
+   display: inline-block;
+}
+
+.iconwiber {
+   background: #7b519d url("../img/icon/viber-logo.png") 50% no-repeat;
+   box-shadow: 0px 8px 25px rgba(123, 81, 157, 0.503797);
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+.icontelegram {
+   background: #5bbaf0 url("../img/icon/telegram\ \(1\).png") 50% no-repeat;
+   box-shadow: 0px 8px 25px rgba(91, 186, 240, 0.5);
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin: 0px 0px 0px 18px;
+   display: inline-block;
+}
+.contact {
+   display: inline-block;
+   width: 260px;
+   height: 90px;
+   padding: 0px 0px 0px 0px;
+   line-height: 24px;
+
+   margin: 0px 25px 0px 0px;
+}
+.tel {
+   background: url("../img/icon/call.svg") 0 5px no-repeat;
+   text-align: right;
+   margin: 0px 0px 0px 70px;
+}
+
+.tel span {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 24px;
+}
+.email {
+   background: url("../img/icon/mail.svg") 0 6px no-repeat;
+   text-align: right;
+   margin: 0px 0px 0px 100px;
+}
+.email span {
+   display: inline-block;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 20px;
+}
+.call {
+   position: absolute;
+   height: 44px;
+   background: linear-gradient(90deg, #f6bd60 0%, #e88952 100%);
+   box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+   border-radius: 3px;
+   margin: 0px 0px 0px 30px;
+}
+.call span {
+   display: inline-block;
+   width: 195px;
+   height: 21px;
+   padding: 8px 0px 0px 0px;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: rgb(255, 255, 255);
+}
+.menu {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-transform: uppercase;
+}
+.menu a {
+   color: #333333;
+   padding: 0px 48px 0px 0px;
+   letter-spacing: -0.3px;
+}
+.menuitem {
+   padding: 0px 0px 0px 47px;
+}
+.conteiner {
+   max-width: 1140px;
+   margin: 0px auto;
+}
+.main {
+   width: 675px;
+}
+.title h2 {
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 51px;
+   color: #333333;
+   margin: 100px 0px 30px 0px;
+}
+
+.title p {
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0px 0px 35px 0px;
+}
+
+.title span {
+   font-weight: 800;
+   font-size: 24px;
+   line-height: 31px;
+}
+
+.conteinerbutton {
+   display: inline-block;
+   background: linear-gradient(90deg, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+   box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+   border-radius: 3px;
+   min-width: 211px;
+   height: 50px;
+
+   padding: 15px 0px;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #ffffff;
+}
